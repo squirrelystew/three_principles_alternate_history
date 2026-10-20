@@ -1,0 +1,32 @@
+title: T. V. Soong
+is-pinned-card: true
+tags: advisor, political_science
+card-image: img/portraits/TVSoong.jpg
+view-if: soong_tv_advisor = 1
+new-page: true
+
+= T. V. Soong
+
+T. V. Soong is a businessman and member of the wealthy Soong family, making him a brother to the wives of Sun Yat-sen, Chiang Kai-Shek, and H. H. Kung. He has many connections to raise funds for the party.
+
+- @emergency_fundraising
+- @finance_ministry_
+- @root: Return to main
+
+@emergency_fundraising
+title: Emergency Fundraising
+view-if: difficulty < 1
+subtitle: An emergency infusion of resources.
+choose-if: advisor_action_timer = 0
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+on-arrival: advisor_action_timer = 6; resources += dues
+
+We have gained +[+ dues +] resources.
+
+@finance_ministry_
+title: Fiscal Policy
+subtitle: As Finance Minister, T. V. Soong can enact tax policies.
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?] [? if kmt_in_government = 0 : KMT not in government: ?] [? if finance_minister_party != "KMT" : The KMT does not control the finance ministry. ?]
+choose-if: advisor_action_timer == 0 and kmt_in_government == 1 and finance_minister_party == "KMT"
+on-arrival: advisor_action_timer = 6; fiscal_policy_timer -= 6; last_advisor_action = 1
+go-to: fiscal_policy
