@@ -1,0 +1,22 @@
+title: Peng Zemin
+is-pinned-card: true 
+tags: advisor
+card-image: img/portraits/PengZemin.jpg
+new-page: true
+view-if: peng_advisor = 1
+
+= Peng Zemin
+
+
+Peng is a leader of the Overseas Chinese diaspora and participated in the Canton–Hong Kong strike. He has expertise in obtaining foreign support for our cause.
+
+- @peng_international
+- @root: Return to main
+
+@peng_international
+title: International Party Relations
+subtitle: Peng is one of our contacts with the Overseas Chinese diaspora and our allies abroad.
+unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
+choose-if: advisor_action_timer == 0
+on-arrival: advisor_action_timer = 6; international_relations_timer -= 12; last_advisor_action = 1
+go-to: international_relations
