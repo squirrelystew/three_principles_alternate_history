@@ -598,9 +598,9 @@ Q.stampfer_advisor = 0; // Friedrich Stampfer
 set-bg: img/map_2.jpg
 new-page: true
 
-> *"Such a general development cannot be attributed to the false tactics of any single party or to the mistakes of individual leaders. On the contrary, the conduct of individual leaders is determined largely by the sentiments of the people as a whole. It would be erroneous, however, to regard the sentiments of the moment as reflecting the natural make-up and character of the people. They are merely the consequence of the special circumstances which have brought about this profound degradation of the entire nation."*
+> *"Why has China become a sheet of loose sand? It is because of the excess of individual liberty. The Chinese people have not known what liberty is, but they have enjoyed it in full measure. They have had so much of it that they have become a sheet of loose sand, incapable of cooperation. ... Therefore, the aim of our revolution is different from that of Europe. Europe fought for liberty because they had too little of it. We must break down individual liberty and become a firmly united body, just like adding water and cement to sand to form a solid rock. When the nation achieves complete liberty, then the individual will have true liberty. If the individuals have too much liberty first, the nation will become a sheet of loose sand, and under foreign imperialist oppression, we will lose everything."*
 
- - Karl Kautsky, *Hitlerism and Social Democracy*, 1934
+ - Sun Yat-Sen, *Lecture Two on the Principle of Democracy*, 1924
 
 This is a game of alternate history. While historical accuracy is a major concern, keep in mind that this is a *game*, and that any divergence from actual events will necessarily have to involve some element of make-believe. Nevertheless, please let the author know if there are any glaring mistakes.
 
@@ -655,7 +655,7 @@ audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_
 new-page: true
 go-to: main if hand_size == 3; main.main_easy if hand_size == 4
 
-= 1928
+= 1926
 
 It is a bright time for German democracy. After a period of struggle, inflation is finally under control, and the economy is expanding steadily. In foreign policy, we have reached agreements with the Western powers and the Soviet Union that might make genuine peace a reality. 
 
