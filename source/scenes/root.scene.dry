@@ -348,8 +348,8 @@ Q.economic_records = [];
 
 
 // State of the government
+Q.head_of_state = "Chief Executive";
 Q.president = "Duan Qirui";
-// starting premier: Xu Shiying
 Q.premier = "Xu Shiying";
 Q.premier_party = 'Beiyang';
 Q.kmt_in_government = 0;
