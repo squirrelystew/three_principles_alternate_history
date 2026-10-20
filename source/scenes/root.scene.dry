@@ -38,7 +38,7 @@ Q.use_decimals = 0;
 Q.annual_income = 0;
 Q.saves_disabled = 0;
 Q.discard_disabled = 0;
-Q.hand_size = 3;
+Q.hand_size = 4;
 Q.starting_dissent = 1; // default dissent = normal
 Q.starting_relations = 1;
 Q.shuffle_leadership_enabled = 0;
