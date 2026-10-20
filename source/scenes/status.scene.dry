@@ -42,7 +42,7 @@ Premier: [+ premier +] ([+ premier_party +])
 
 [? if legislature_formed = 1: Others: [+ other_r +]% ?]
 
-[? if kmt_in_government = 1 : Budget: [+ budget +] ?] ?]
+[? if kmt_in_government = 1 : Budget: [+ budget +] ?]
 
 [? if elections_allowed = 1: Next election: [+ next_election_month : month +] [+ next_election_year +] ?]
 
