@@ -4,7 +4,18 @@ view-if: year = 1926 and month = 1
 max-visits: 1
 tags: event
 new-page: true
-face-image: img/2nd_national_congress.jpg
+on-display: {!  
+    var cardEl = document.createElement('div');  
+    cardEl.className = "face-figure2";  
+
+    var image = new Image();  
+    image.className = "face-img";  
+    image.src = "img/2nd_national_congress.jpg";  
+
+    cardEl.appendChild(image);  
+    var contentDiv = document.querySelector("#page #mid_panel #content");
+    contentDiv.appendChild(cardEl);
+!}
 
 = 2nd National Congress of the Kuomintang
 
