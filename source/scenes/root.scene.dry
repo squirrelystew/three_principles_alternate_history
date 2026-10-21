@@ -116,7 +116,7 @@ Q.moderate_plan_adopted = 0;
 
 // organizations
 
-// inter-factional relations
+// Major faction relations
 Q.gmc_relation = 70;
 Q.ycp_relation = 35;
 Q.fed_relation = 20;
