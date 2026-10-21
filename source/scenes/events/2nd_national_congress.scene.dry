@@ -15,4 +15,6 @@ Working description
 - @congress1: Wang Jingwei takes the stand.
 
 congress1
+on_arrival:  rural_nsdap += 3; rural_spd -= 2; rural_ddp -= 2; pro_republic -= 3
+
 Wang Jingwei takes the stand.
