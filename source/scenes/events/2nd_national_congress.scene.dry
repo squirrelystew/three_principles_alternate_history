@@ -1,6 +1,6 @@
 title: 2nd National Congress of the Kuomintang
 subtitle: The party meets in Guangzhou...
-view-if: year = 1926 and month = 1
+view-if: year = 1926 and month > 0
 max-visits: 1
 tags: event
 new-page: true
@@ -10,15 +10,15 @@ face-image: img/2nd_national_congress.jpg
 
 # reference: TBD
 
-Working description
+The establishment of the United Front with the CCP and the death of Dr. Sun Yat-sen in March of last year has left the party leadership in limbo. Last November, allegations of Comintern infiltration in the Central Executive Committee by the Western Hills Group encouraged the CEC to call for an unprecedented congressional meeting.
 
 - @congress1
 
 @congress1
-title: What of the WHG?
+title: What of the Western Hills Group?
 #on-arrival: kpd_party_leader = "Conciliators"; communist_coalition += 3; kpd_relation += 10*(1-dissent); left_strength += 5; left_dissent -= 8
 
-Unexpectedly, the Western Hills Group have outrighted refused to join what they perceive as a Bolshevik farce. This may have the effect of forcing centrists to pick sides.
+Unexpectedly, the Western Hills Group have outrighted refused to join what they perceive as a Bolshevik farce.
 
 - @congress2
 - @congress3
@@ -27,10 +27,16 @@ Unexpectedly, the Western Hills Group have outrighted refused to join what they 
 title: Can we convince them otherwise?
 choose-if: (left_strength >= reformist_strength) 
 unavailable-subtitle: They are unwilling to accept any compromise with leftists.
-#on-arrival: kpd_party_leader = "Conciliators"; communist_coalition += 3; kpd_relation += 10*(1-dissent); left_strength += 5; left_dissent -= 8
+
+I see you cheating. I know I could write an entire event for this, but that's a lot of work, so I'm just going to recorrect you to the historical route.
+
+- @congress3
 
 @congress3
 title: Forget about them, we'll hold it anyway.
-#on-arrival: kpd_party_leader = "Conciliators"; communist_coalition += 3; kpd_relation += 10*(1-dissent); left_strength += 5; left_dissent -= 8
 
-We have decided to hold the Congress without the WHG.
+The National Congress opens with a ceremonial opening speech by Chairman of the Central Political Committee Wang Jingwei. In his address, he makes note of three main responsibilities:
+<p>&bull; Fulfilling Sun Yat-sen's final testament following his death in March 1925.</p>
+<p>&bull; Mobilizing the Chinese people against imperialism and military rule.</p>
+<p>&bull; Concentrating revolutionary forces for the unification of China.</p>
+Text.
