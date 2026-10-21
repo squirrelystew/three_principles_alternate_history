@@ -24,7 +24,7 @@ KMT position: [? if kmt_in_government : in government - ?][? if kmt_in_governmen
 
 Internal dissent: [+ dissent_percent : dissent +]
 
-= Government
+= Beiyang Government
 
 [+ head_of_state +]: [+ president +]
 
