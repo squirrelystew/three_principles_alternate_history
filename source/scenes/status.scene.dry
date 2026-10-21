@@ -60,22 +60,21 @@ Economic growth: [+ economic_growth_2 +]%
 
 @politics
 
-= Inter-party Relations
+= Major Factions
 
+[? if not guominjun_absorbed: <span class="tooltip-text" title="The Guominjun is a Christian anti-Imperialist faction with Socialist tendencies. It partially follows Sun Yat-sen's teachings of the Three Principles." style="color: #000095;">**Guominjun**</span>: [+ gmc_relation : relationships +] ?]
 
-{!<span class="tooltip-text" title="Center Party">Z</span>!}: [+ z_relation : relationships +]
+[? if not fengtian_defeated: <span class="tooltip-text" title="Fengtian Clique" style="color: #FFC600;">**Fengtian**</span>: [+ fengtian_relation : relationships +] ?]
 
-{!<span class="tooltip-text" title="German Democratic Party">!}[? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]{!</span>!}: [+ ddp_relation : relationships +]
+[? if not zhili_defeated: <span class="tooltip-text" title="Zhili Clique" style="color: #366744;">**Zhili**</span>: [+ zhili_relation : relationships +] ?]
 
-{!<span class="tooltip-text" title="German People's Party">DVP</span>!}: [+ dvp_relation : relationships +]
+[? if not anhui_defeated: <span class="tooltip-text" title="Anhui Clique" style="color: #CD071E;">**Anhui**</span>: [+ anhui_relation : relationships +] ?]
 
-{!<span class="tooltip-text" title="Communist Party of Germany">KPD</span>!}: [+ kpd_relation : relationships +]
+<span class="tooltip-text" title="Young China Party" style="color: #00A86B;">**YCP**</span>: [+ ycp_relation : relationships +]
 
-{!<span class="tooltip-text" title="German National People's Party">DNVP</span>!}: [+ dnvp_relation : relationships +]
+<span class="tooltip-text" title="Federalists" style="color: #6E326E;">**Federalists**</span>: [+ fed_relation : relationships +]
 
-{!<span class="tooltip-text" title="National-Socialist German Worker's Party (Nazis)">NSDAP</span>!}: [+ nsdap_relation : relationships +]
-
-= Internal Factions of the SPD
+= Internal Factions of the KMT
 
 {!<span class="tooltip-text" title="The Left is interested in radical, transformative policies and cooperation with the KPD.">Left</span>!} strength: [+ left_strength : strength +], dissent: [+ left_dissent : dissent +]
 
