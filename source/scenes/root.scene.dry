@@ -576,7 +576,7 @@ This is a game of alternate history. While historical accuracy is a major concer
 @1928_main
 audio: shuffle music/ThreePrinciples.mp3
 new-page: true
-go-to: main if hand_size == 3; main.main_easy if hand_size == 4
+go-to: main
 
 = 1926
 
