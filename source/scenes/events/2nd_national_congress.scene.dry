@@ -10,7 +10,7 @@ face-image: img/2nd_national_congress.jpg
 
 # reference: TBD
 
-The establishment of the United Front with the CCP and the death of Dr. Sun Yat-sen in March of last year has left the party leadership in limbo. Last November, allegations of Comintern infiltration in the Central Executive Committee by the Western Hills Group encouraged the CEC to call for an unprecedented congressional meeting.
+The establishment of the United Front with the CCP and the death of Dr. Sun Yat-sen in March of last year has left the party leadership in limbo. In November, allegations of Comintern infiltration in the Central Executive Committee by the Western Hills Group sparked disbelief and confusion among the rank-and-file, with calls for both the expulsion of the suspects and denunciation of the conservatives' accusations. Simple discipline has been unsuccessful in curbing the radicalizing sentiment throughout the party, encouraging the CEC to call for an unprecedented national congress, bringing all self-proclaimed Nationalists from across the nation to the city of Guangzhou to determine the future of the party.
 
 - @congress1
 
@@ -18,7 +18,7 @@ The establishment of the United Front with the CCP and the death of Dr. Sun Yat-
 title: What of the Western Hills Group?
 #on-arrival: kpd_party_leader = "Conciliators"; communist_coalition += 3; kpd_relation += 10*(1-dissent); left_strength += 5; left_dissent -= 8
 
-Unexpectedly, the Western Hills Group have outrighted refused to join what they perceive as a Bolshevik farce.
+The Western Hills Group have outrighted refused to participate what they perceive as a Bolshevik farce. While not unexpected, it is concerning, and sets a bad precedent for the future unity of the party.
 
 - @congress2
 - @congress3
@@ -35,8 +35,4 @@ I see you cheating. I know I could write an entire event for this, but that's a 
 @congress3
 title: Forget about them, we'll hold it anyway.
 
-The National Congress opens with a ceremonial opening speech by Chairman of the Central Political Committee Wang Jingwei. In his address, he makes note of three main responsibilities:
-<p>&bull; Fulfilling Sun Yat-sen's final testament following his death in March 1925.</p>
-<p>&bull; Mobilizing the Chinese people against imperialism and military rule.</p>
-<p>&bull; Concentrating revolutionary forces for the unification of China.</p>
-Text.
+The National Congress 
