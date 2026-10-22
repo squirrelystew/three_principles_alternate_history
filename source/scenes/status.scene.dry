@@ -46,13 +46,19 @@ Premier: [+ premier +] ([+ premier_party +])
 
 [? if elections_allowed = 1: Next election: [+ next_election_month : month +] [+ next_election_year +] ?]
 
-= Economics
+= [+ kmt_capital +] Government
 
-Inflation: [+ inflation_2 +]%
+[+ kmt_head_of_state +]: [+ kmt_president +] ([+ kmt_president_party +])
 
-[? if black_thursday_seen = 1 : Unemployment: [+ unemployed_2 +]% ?]
+[? if kmt_gov_legitimate = 1: Premier: [+ kmt_premier +] ([+ kmt_premier_party +]) ?]
 
-Economic growth: [+ economic_growth_2 +]%
+#= Economics
+
+#Inflation: [+ inflation_2 +]%
+
+#[? if black_thursday_seen = 1 : Unemployment: [+ unemployed_2 +]% ?]
+
+#Economic growth: [+ economic_growth_2 +]%
 
 
 

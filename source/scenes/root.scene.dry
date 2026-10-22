@@ -339,6 +339,9 @@ Q.old_sapd_r = 0;
 // for changing the DDP's name to the DStP
 Q.ddp_name = "DDP";
 
+// for consistency
+Q.kmt_name = "<span class="tooltip-text" title="Kuomintang" style="color: #000095;">**KMT**</span>"
+
 // array of objects of the form {date: Date(), spd: 10, kpd: 12, ...} for each election
 Q.election_records = [];
 // party support records for every month
@@ -347,12 +350,20 @@ Q.party_support_records = [];
 Q.economic_records = [];
 
 
-// State of the government
+// Beiyang Government
 Q.head_of_state = "Chief Executive";
 Q.president = "Duan Qirui";
-// Starting Premier: Xu Shiying
 Q.premier = "Xu Shiying";
 Q.premier_party = 'Beiyang';
+
+// KMT Government
+Q.kmt_capital = "Guangzhou";
+Q.kmt_head_of_state = "Chairman of the National Government";
+Q.kmt_president = "Wang Jingwei";
+Q.kmt_president_party = '[+ kmt_name +]';
+Q.kmt_premier = "Wang Jingwei";
+Q.kmt_premier_party = '[+ kmt_name +]';
+
 Q.kmt_in_government = 0;
 Q.z_in_government = 1;
 Q.ddp_in_government = 0;
