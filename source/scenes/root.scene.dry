@@ -347,12 +347,18 @@ Q.party_support_records = [];
 Q.economic_records = [];
 
 
-// State of the government
+// Beiyang Government
 Q.head_of_state = "Chief Executive";
 Q.president = "Duan Qirui";
-// Starting Premier: Xu Shiying
 Q.premier = "Xu Shiying";
 Q.premier_party = 'Beiyang';
+
+// KMT Government
+Q.kmt_head_of_state = "Chairman of the National Government";
+Q.kmt_president = "Wang Jingwei";
+Q.kmt_premier = "Wang Jingwei";
+Q.kmt_premier_party = 'KMT';
+
 Q.kmt_in_government = 0;
 Q.z_in_government = 1;
 Q.ddp_in_government = 0;
