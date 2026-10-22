@@ -570,10 +570,11 @@ Q.soong_tv_advisor = 1; // T.V. Soong
 Q.peng_advisor = 1; // Peng Zemin - Nonfactional
 Q.lin_advisor = 1; // Lin Boqu
 
+
+!}
 set-bg: img/map_2.jpg
 new-page: true
 
-!}
 > *"Why has China become a sheet of loose sand? It is because of the excess of individual liberty. The Chinese people have not known what liberty is, but they have enjoyed it in full measure. They have had so much of it that they have become a sheet of loose sand, incapable of cooperation. ... Therefore, the aim of our revolution is different from that of Europe. Europe fought for liberty because they had too little of it. We must break down individual liberty and become a firmly united body, just like adding water and cement to sand to form a solid rock. When the nation achieves complete liberty, then the individual will have true liberty. If the individuals have too much liberty first, the nation will become a sheet of loose sand, and under foreign imperialist oppression, we will lose everything."*
 
  - Sun Yat-Sen, *Lecture Two on the Principle of Democracy*, 1924
