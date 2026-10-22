@@ -570,7 +570,6 @@ Q.soong_tv_advisor = 1; // T.V. Soong
 Q.peng_advisor = 1; // Peng Zemin - Nonfactional
 Q.lin_advisor = 1; // Lin Boqu
 
-!}
 set-bg: img/map_2.jpg
 new-page: true
 
