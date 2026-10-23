@@ -26,7 +26,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Beiyang Government
 
-[+ head_of_state +]: [+ president +]
+[+ head_of_state +]: [+ president +] ([+ president_party +])
 
 Premier: [+ premier +] ([+ premier_party +])
 
