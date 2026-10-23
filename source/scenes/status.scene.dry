@@ -26,9 +26,9 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Beiyang Government
 
-[+ head_of_state +]: [? if president == "Duan Qirui": <span style="color: #cd071e;">Duan Qirui</span> ?]([? if president == "Duan Qirui": <span style="color: #cd071e;">**Anhui**</span> ?])
+[+ head_of_state +]: [? if president == "Duan Qirui": <span style="color: #cd071e;">Duan Qirui</span> ?]([? if president == "Duan Qirui": <span style="color: #cd071e;">**Anhui**</span>?])
 
-Premier: [? if premier == "Xu Shiying": <span style="color: #cd071e;">Xu Shiying</span> ?]([? if premier == "Xu Shiying": <span style="color: #cd071e;">**Anhui**</span> ?])
+Premier: [? if premier == "Xu Shiying": <span style="color: #cd071e;">Xu Shiying</span> ?]([? if premier == "Xu Shiying": <span style="color: #cd071e;">**Anhui**</span>?])
 
 [? if legislature_formed = 1:[+ legislative_body +] composition: ?]
 
@@ -48,9 +48,9 @@ Premier: [? if premier == "Xu Shiying": <span style="color: #cd071e;">Xu Shiying
 
 = [+ kmt_capital +] Government
 
-[+ kmt_head_of_state +]: [? if kmt_president == "Wang Jingwei": <span style="color: #0029cc;">Wang Jingwei</span> ?]([? if kmt_president == "Wang Jingwei": <span style="color: #0029cc;">**KMT**</span> ?])
+[+ kmt_head_of_state +]: [? if kmt_president == "Wang Jingwei": <span style="color: #0029cc;">Wang Jingwei</span> ?]([? if kmt_president == "Wang Jingwei": <span style="color: #0029cc;">**KMT**</span>?])
 
-[? if kmt_gov_legitimate = 1: Premier: [? if kmt_premier == "Wang Jingwei": <span style="color: #0029cc;">Wang Jingwei</span> ?]([? if kmt_premier == "Wang Jingwei": <span style="color: #0029cc;">**KMT**</span> ?])
+[? if kmt_gov_legitimate = 1: Premier: [? if kmt_premier == "Wang Jingwei": <span style="color: #0029cc;">Wang Jingwei</span> ?]([? if kmt_premier == "Wang Jingwei": <span style="color: #0029cc;">**KMT**</span>?])
 
 #= Economics
 
