@@ -1,0 +1,22 @@
+title: 2nd National Congress of the Kuomintang
+subtitle: The party meets in Guangzhou...
+view-if: year = 1926 and month > 0
+max-visits: 1
+priority = -2
+tags: event
+new-page: true
+face-image: img/2nd_national_congress.jpg
+
+= 2nd National Congress of the Kuomintang
+
+# reference: TBD
+
+Wang Jingwei holds his speech.
+  
+- @congress1
+
+@congress1
+title: An inspiring speech
+#on-arrival: kpd_party_leader = "Conciliators"; communist_coalition += 3; kpd_relation += 10*(1-dissent); left_strength += 5; left_dissent -= 8
+
+Indeed.
