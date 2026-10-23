@@ -347,16 +347,17 @@ Q.economic_records = [];
 // Beiyang Government
 Q.head_of_state = "Chief Executive";
 Q.president = "Duan Qirui";
+Q.president_party = '<span class="tooltip-text" title="Anhui Clique" style="color: #cd071e;">**Anhui**</span>';
 Q.premier = "Xu Shiying";
-Q.premier_party = 'Beiyang';
+Q.premier_party = '<span class="tooltip-text" title="Anhui Clique" style="color: #cd071e;">**Anhui**</span>';
 
 // KMT Government
 Q.kmt_capital = "Guangzhou";
 Q.kmt_head_of_state = "Chairman of the National Government";
 Q.kmt_president = "Wang Jingwei";
-Q.kmt_president_party = 'KMT';
+Q.kmt_president_party = '<span class="tooltip-text" title="Kuomintang" style="color: #0029cc;">**KMT**</span>';
 Q.kmt_premier = "Wang Jingwei";
-Q.kmt_premier_party = 'KMT';
+Q.kmt_premier_party = '<span class="tooltip-text" title="Kuomintang" style="color: #0029cc;">**KMT**</span>';
 
 Q.kmt_in_government = 0;
 Q.z_in_government = 1;
