@@ -2,7 +2,7 @@ title: 2nd National Congress of the Kuomintang
 subtitle: The party meets in Guangzhou...
 view-if: year = 1926 and month > 0
 max-visits: 1
-priority = -2
+priority: -2
 tags: event
 new-page: true
 face-image: img/2nd_national_congress.jpg
