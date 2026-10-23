@@ -353,7 +353,7 @@ Q.premier_party = '<span class="tooltip-text" title="Anhui Clique" style="color:
 
 // KMT Government
 Q.kmt_capital = "Guangzhou";
-Q.kmt_head_of_state = "Chairman of the National Government";
+Q.kmt_head_of_state = "Chairman";
 Q.kmt_president = "Wang Jingwei";
 Q.kmt_president_party = '<span class="tooltip-text" title="Kuomintang" style="color: #0029cc;">**KMT**</span>';
 Q.kmt_premier = "Wang Jingwei";
