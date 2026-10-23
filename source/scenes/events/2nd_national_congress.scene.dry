@@ -18,7 +18,7 @@ The establishment of the United Front with the CCP and the death of Dr. Sun Yat-
 title: What of the Western Hills Group?
 #on-arrival: kpd_party_leader = "Conciliators"; communist_coalition += 3; kpd_relation += 10*(1-dissent); left_strength += 5; left_dissent -= 8
 
-The Western Hills Group have outrighted refused to participate what they perceive as a Bolshevik farce. While not unexpected, it is concerning, and sets a bad precedent for the future unity of the party.
+The Western Hills Group have outrighted refused to participate in what they perceive as a Bolshevik farce! While not very suprising, it raises concerns and sets a bad precedent for the future unity of the party.
 
 - @congress2
 - @congress3
@@ -34,5 +34,3 @@ I see you cheating. I know I could write an entire event for this, but that's a 
 
 @congress3
 title: Forget about them, we'll hold it anyway.
-
-The National Congress begins.
