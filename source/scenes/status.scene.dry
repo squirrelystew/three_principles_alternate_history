@@ -82,16 +82,13 @@ Premier: [? if premier == "Xu Shiying": <span style="color: #cd071e;">Xu Shiying
 
 = Internal Factions of the KMT
 
-{!<span class="tooltip-text" title="The Left is interested in radical, transformative policies and cooperation with the KPD.">Left</span>!} strength: [+ left_strength : strength +], dissent: [+ left_dissent : dissent +]
+{!<span class="tooltip-text" title="The Communists are the representatives of the CCP within the United Front. They don't hold true loyalty to Sun Yat-sen's concept of tutelage, but function as a faction of our party regardless.">Communists</span>!} strength: [+ communist_strength : strength +], dissent: [+ communist_dissent : dissent +]
 
-{!<span class="tooltip-text" title="The Center is a faction of Center Marxists, between reform and revolution.">Center</span>!} strength: [+ center_strength : strength +], dissent: [+ center_dissent : dissent +]
+{!<span class="tooltip-text" title="The Left supports cooperation with the Communists and an emphasis on revolutionary action, but are defined by their support for a politice tutelage and full party membership.">Left</span>!} strength: [+ left_strength : strength +], dissent: [+ left_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Labor's goal is economic reform and benefits for organized workers.">Labor</span>!} strength: [+ labor_strength : strength +], dissent: [+ labor_dissent : dissent +]
+{!<span class="tooltip-text" title="The Center holds views from both the left and right, and is more pragmatic in their willingness to work with both Communists and warlords. They are revolutionary but not socialist.">Center</span>!} strength: [+ center_strength : strength +], dissent: [+ center_dissent : dissent +]
 
-{!<span class="tooltip-text" title="Reformists are pragmatic participants in government, and seek to expand the welfare state and defend democracy.">Reformist</span>!} strength: [+ reformist_strength : strength +], dissent: [+ reformist_dissent : dissent +]
-
-[? if neorevisionism > 0 : Neorevisionist strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
-
+{!<span class="tooltip-text" title="The right-wing Western Hills Group is made up of party members who are unwilling to work with the Communists and support a more conservative and gradual tutelage than that proposed by the more liberal and leftist wings of the party.">Western Hills Group</span>!} strength: [+ right_strength : strength +], dissent: [+ right_dissent : dissent +]
 
 @paramilitaries
 on-arrival: {!
