@@ -25,7 +25,7 @@ The Western Hills Group have outrighted refused to participate in what they perc
 
 @congress2
 title: Can we convince them otherwise?
-choose-if: (left_strength >= reformist_strength) 
+choose-if: ( right_dissent >= 5 ) 
 unavailable-subtitle: They are unwilling to accept any compromise with leftists.
 
 I see you cheating. I know I could write an entire event for this, but that's a lot of work, so I'm just going to recorrect you to the historical route.
