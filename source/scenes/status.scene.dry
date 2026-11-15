@@ -90,7 +90,7 @@ Premier: [? if premier == "Xu Shiying": <span style="color: #cd071e;">Xu Shiying
 
 [? if not anhui_defeated: <span class="tooltip-text" title="Anhui Clique" style="color: #CD071E;">**Anhui**</span>: [+ anhui_relation : relationships +], type: military faction ?]
 
-[? if not guangxi_defeated: <span class="tooltip-text" title="New Guangxi Clique" style="color: #477161;">**Guangxi**</span>: [+ guangxi_relation : relationships +][? if guangxi_alliance = 1 :  (<span style="color: #00FFFF;">Ally</span>)?], type: military faction ?]
+[? if not guangxi_defeated: <span class="tooltip-text" title="New Guangxi Clique" style="color: #477161;">**Guangxi**</span>: [+ guangxi_relation : relationships +][? if guangxi_alliance = 1 : &nbsp;(<span style="color: #12cccc;">Ally</span>)?], type: military faction ?]
 
 [? if not yunnan_defeated: <span class="tooltip-text" title="Yunnan Clique" style="color: #729450;">**Yunnan**</span>: [+ yunnan_relation : relationships +], type: military faction ?]
 
