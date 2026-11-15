@@ -155,4 +155,6 @@ Support for Democracy: [+ democracy_disp +]%
 
 Support for Socialism: [+ socialism_disp +]%
 
-<div style="display: <img src="img/Tibet.png" alt="Wang Jingwei" style="width: 50%;">
+<button onclick="YOUR_ACTION_HERE" style="background: none; border: none; padding: 0; cursor: pointer;">
+  <img src="img/Tibet.png" alt="Tibet" style="width: 50%;">
+</button>
