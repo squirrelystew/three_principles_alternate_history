@@ -84,7 +84,7 @@
           'main_tab': "Main",
           'politics_tab': "Politics",
           'paramilitary_tab': "Defense",
-          'poll_tab': "Polls",
+          'state_tab': "States",
           'stats-link': "Library",
           'save-link': "Save/Load",
           'options-link': "Options",
