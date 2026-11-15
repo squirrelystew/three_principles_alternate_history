@@ -155,6 +155,26 @@ Support for Democracy: [+ democracy_disp +]%
 
 Support for Socialism: [+ socialism_disp +]%
 
-<button onclick="YOUR_ACTION_HERE" style="background: none; border: none; padding: 0; cursor: pointer;">
+<button onclick="showState('tibet')" style="background: none; border: none; cursor: pointer;">
   <img src="img/Tibet.png" alt="Tibet" style="width: 50%;">
 </button>
+
+<div id="tibet" style="display: none;">
+  Owner: [+ tibet_owner +]<br>
+  Leader: [+ tibet_leader +]
+</div>
+
+<script>
+function showState(state) {
+  document.querySelectorAll('.state-info').forEach(panel => {
+    panel.style.display = 'none';
+  });
+
+  document.getElementById(state).style.display = 'block';
+}
+</script>
+
+<div id="tibet" class="state-info" style="display: none;">
+  Owner: [+ tibet_owner +]<br>
+  Leader: [+ tibet_leader +]
+</div>
