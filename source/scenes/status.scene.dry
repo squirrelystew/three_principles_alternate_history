@@ -149,7 +149,7 @@ Q.socialism_disp = Math.round(Q.socialism);
 
 = States
 
-[? if kmt_president == "Wang Jingwei": <div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;"><img src="img/portraits/Tibet.png" alt="Wang Jingwei" style="width: 50%;"> ?]
+[? if kmt_president == "Wang Jingwei": <div style="display: flex;gap: 5px;margin-bottom: 5px;margin-left: -3px;"><img src="img/Tibet.png" alt="Wang Jingwei" style="width: 50%;"> ?]
 
 Support for Nationalism: [+ nationalism_disp +]%
 
