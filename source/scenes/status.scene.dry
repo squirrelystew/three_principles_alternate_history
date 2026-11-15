@@ -155,20 +155,38 @@ Support for Democracy: [+ democracy_disp +]%
 
 Support for Socialism: [+ socialism_disp +]%
 
-<button onclick="showState('tibet')" style="background: none; border: none; cursor: pointer;">
-  <img src="img/Tibet.png" alt="Tibet" style="width: 50%;">
-</button>
-
-<div id="tibet" class="state-info" style="display: none;">
-  Owner: [+ tibet_owner +]<br>
-  Leader: [+ tibet_leader +]
+<div id="state-info" style="display: none;">
+  Owner: <span id="state-owner"></span><br>
+  Leader: <span id="state-leader"></span>
 </div>
 
 <script>
+const states = {
+  tibet: {
+    owner: "[+ tibet_owner +]",
+    leader: "[+ tibet_leader +]"
+  },
+  guangxi: {
+    owner: "[+ guangxi_owner +]",
+    leader: "[+ guangxi_leader +]"
+  }
+};
+
 function showState(state) {
-  document.querySelectorAll('.state-info').forEach(panel => {
-    panel.style.display = 'none';
-  });
-  document.getElementById(state).style.display = 'block';
+  const panel = document.getElementById('state-info');
+
+  if (!states[state]) return;
+
+  document.getElementById('state-owner').textContent = states[state].owner;
+  document.getElementById('state-leader').textContent = states[state].leader;
+  panel.style.display = 'block';
 }
 </script>
+
+<button onclick="showState('tibet')">
+  <img src="img/Tibet.png" alt="Tibet" style="width: 50%;">
+</button>
+
+<button onclick="showState('guangxi')">
+  <img src="img/Tibet.png" alt="Guangxi" style="width: 50%;">
+</button>
