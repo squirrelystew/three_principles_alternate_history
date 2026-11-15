@@ -109,24 +109,35 @@ Q.moderate_plan_adopted = 0;
 
 // Major faction relations
 Q.gmc_relation = 70;
+Q.gmc_alliance = 0;
 Q.ycp_relation = 35;
+Q.ycp_alliance = 0;
 Q.fed_relation = 20;
-// Other warlords are always hostile
+Q.fed_alliance = 0;
+Q.guangxi_relation = 80;
+Q.guangxi_alliance = 1;
+Q.yunnan_relation = 10;
+Q.yunnan_alliance = 0;
+Q.anhui_relation = 10;
+// Fengtian and Zhili are always hostile
 Q.fengtian_relation = 0;
 Q.zhili_relation = 0;
-Q.anhui_relation = 10;
 
 Q.gmc_leader = "Feng Yuxiang";
 Q.ycp_leader = "Zeng Qi";
 Q.fed_leader = "Chen Jiongming";
+Q.guangxi_leader = "Li Zongren";
+Q.yunnan_leader = "Tang Jiyao";
+Q.anhui_leader = "Quan Qirui";
 
 Q.fengtian_leader = "Zhang Zuolin";
 Q.zhili_leader = "Wu Peifu";
-Q.anhui_leader = "Quan Qirui";
 
 // The National Revolutionary Army
 Q.nra_total_strength = 150;
-Q.nra_average_militancy = 0.8;
+Q.nra_percent_equipped = 0.8;
+Q.nra_percent_elite = 0.1;
+Q.nra_morale = 0.6;
 Q.nra_left_influnce = 30;
 Q.nra_center_influnce = 45;
 Q.nra_right_influnce = 25;
