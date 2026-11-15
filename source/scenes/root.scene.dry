@@ -75,9 +75,6 @@ Q.left_split = 0;
 Q.centrists_resign = 0;
 Q.right_join_ycp = 0;
 
-// have we discovered neorevisionism?
-Q.neorevisionism = 0;
-
 // crisis_urgency indicates how seriously the SPD is taking the economic crisis - scale from 0 to 10.
 Q.crisis_urgency = 0;
 // nazi_urgency indicates how seriously the SPD takes the nazis - scale from 0 to 10.
@@ -195,9 +192,7 @@ Q.economic_expansion = 0;
 
 Q.classes = ['workers', 'peasants', 'gentry', 'merchants', 'students'];
 
-// Support for government in states by interesnt groups
-
-Q.
+// Support for government in states by interest groups
 
 // array of objects of the form {date: Date(), spd: 10, kpd: 12, ...} for each election
 Q.election_records = [];
@@ -223,12 +218,6 @@ Q.kmt_premier = "Wang Jingwei";
 Q.kmt_premier_party = '<span class="tooltip-text" title="Kuomintang" style="color: #0029cc;">**KMT**</span>';
 
 Q.kmt_in_government = 0;
-Q.z_in_government = 1;
-Q.ddp_in_government = 0;
-Q.dvp_in_government = 1;
-Q.dnvp_in_government = 1;
-Q.kpd_in_government = 0;
-Q.nsdap_in_government = 0;
 
 Q.in_right_coalition = 0;
 // Weimar coalition = SPD + Z + DDP
