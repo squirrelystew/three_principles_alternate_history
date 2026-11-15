@@ -66,20 +66,6 @@ Premier: [? if premier == "Xu Shiying": <span style="color: #cd071e;">Xu Shiying
 
 @politics
 
-= Major Factions
-
-[? if not guominjun_absorbed: <span class="tooltip-text" title="The Guominjun is a Christian anti-Imperialist faction with Socialist tendencies. It partially follows Sun Yat-sen's teachings of the Three Principles." style="color: #000095;">**Guominjun**</span>: [+ gmc_relation : relationships +] ?]
-
-[? if not fengtian_defeated: <span class="tooltip-text" title="Fengtian Clique" style="color: #FFC600;">**Fengtian**</span>: [+ fengtian_relation : relationships +] ?]
-
-[? if not zhili_defeated: <span class="tooltip-text" title="Zhili Clique" style="color: #366744;">**Zhili**</span>: [+ zhili_relation : relationships +] ?]
-
-[? if not anhui_defeated: <span class="tooltip-text" title="Anhui Clique" style="color: #CD071E;">**Anhui**</span>: [+ anhui_relation : relationships +] ?]
-
-<span class="tooltip-text" title="Young China Party" style="color: #00A86B;">**YCP**</span>: [+ ycp_relation : relationships +]
-
-<span class="tooltip-text" title="Federalists" style="color: #6E326E;">**Federalists**</span>: [+ fed_relation : relationships +]
-
 = Internal Factions of the KMT
 
 {!<span class="tooltip-text" title="The Communists are the representatives of the CCP within the United Front. They don't hold true loyalty to Sun Yat-sen's concept of tutelage, but function as a faction of our party regardless." style="color: #850000;">Communists</span>!} strength: [+ communist_strength : strength +], dissent: [+ communist_dissent : dissent +]
@@ -89,6 +75,24 @@ Premier: [? if premier == "Xu Shiying": <span style="color: #cd071e;">Xu Shiying
 {!<span class="tooltip-text" title="The Center holds views from both the left and right, and is more pragmatic in their willingness to work with both Communists and warlords. They are revolutionary but not socialist." style="color: #116396;">Center</span>!} strength: [+ center_strength : strength +], dissent: [+ center_dissent : dissent +]
 
 {!<span class="tooltip-text" title="The right-wing Western Hills Group is made up of party members who are unwilling to work with the Communists and support a more conservative and gradual tutelage than that proposed by the more liberal and leftist wings of the party." style="color: #4c800e;">Western Hills Group</span>!} strength: [+ right_strength : strength +], dissent: [+ right_dissent : dissent +]
+
+= Other Factions
+
+<span class="tooltip-text" title="Young China Party" style="color: #00A86B;">**YCP**</span>: [+ ycp_relation : relationships +], type: political faction
+
+<span class="tooltip-text" title="Federalists" style="color: #6E326E;">**Federalists**</span>: [+ fed_relation : relationships +], type: political faction
+
+[? if not guominjun_defeated : <span class="tooltip-text" title="The Guominjun is a Christian anti-Imperialist faction with Socialist tendencies. It partially follows Sun Yat-sen's teachings of the Three Principles." style="color: #000095;">**Guominjun**</span>: [+ gmc_relation : relationships +], type: military faction ?]
+
+[? if not fengtian_defeated: <span class="tooltip-text" title="Fengtian Clique" style="color: #FFC600;">**Fengtian**</span>: [+ fengtian_relation : relationships +], type: military faction ?]
+
+[? if not zhili_defeated: <span class="tooltip-text" title="Zhili Clique" style="color: #366744;">**Zhili**</span>: [+ zhili_relation : relationships +], type: military faction ?]
+
+[? if not anhui_defeated: <span class="tooltip-text" title="Anhui Clique" style="color: #CD071E;">**Anhui**</span>: [+ anhui_relation : relationships +], type: military faction ?]
+
+[? if not guangxi_defeated: <span class="tooltip-text" title="New Guangxi Clique" style="color: #477161;">**Guangxi**</span>: [+ guangxi_relation : relationships +][? if guangxi_alliance = 1 : (span style="color: #00FFFF;">Ally</span>) ?], type: military faction ?]
+
+[? if not yunnan_defeated: <span class="tooltip-text" title="Yunnan Clique" style="color: #729450;">**Yunnan**</span>: [+ yunnan_relation : relationships +], type: military faction ?]
 
 @paramilitaries
 on-arrival: {!
