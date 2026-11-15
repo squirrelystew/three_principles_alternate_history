@@ -159,7 +159,7 @@ Support for Socialism: [+ socialism_disp +]%
   <img src="img/Tibet.png" alt="Tibet" style="width: 50%;">
 </button>
 
-<div id="tibet" style="display: none;">
+<div id="tibet" class="state-info" style="display: none;">
   Owner: [+ tibet_owner +]<br>
   Leader: [+ tibet_leader +]
 </div>
@@ -169,12 +169,6 @@ function showState(state) {
   document.querySelectorAll('.state-info').forEach(panel => {
     panel.style.display = 'none';
   });
-
   document.getElementById(state).style.display = 'block';
 }
 </script>
-
-<div id="tibet" class="state-info" style="display: none;">
-  Owner: [+ tibet_owner +]<br>
-  Leader: [+ tibet_leader +]
-</div>
