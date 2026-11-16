@@ -183,10 +183,37 @@ function showState(state) {
 }
 </script>
 
-<button onclick="showState('tibet')">
-  <img src="img/Tibet.png" alt="Tibet" style="width: 50%;">
+<div id="china-map" style="
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background-image: url('img/tempchinamap.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+">
+  <button onclick="showState('tibet')" style="
+  position: absolute;
+  left: 15%;
+  top: 40%;
+  width: 20%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+">
+  <img src="img/Tibet.png" style="width: 100%; display: block;">
 </button>
 
-<button onclick="showState('guangxi')">
-  <img src="img/Tibet.png" alt="Guangxi" style="width: 50%;">
+<button onclick="showState('guangxi')" style="
+  position: absolute;
+  left: 55%;
+  top: 65%;
+  width: 10%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+">
+  <img src="img/Guangxi.png" style="width: 100%; display: block;">
 </button>
+</div>
