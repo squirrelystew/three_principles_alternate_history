@@ -187,7 +187,7 @@ function showState(state) {
   position: relative;
   width: 100%;
   aspect-ratio: 4 / 3;
-  background-image: url('img/tempchinamap.png');
+  background-image: url('img/map/tempchinamap.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
 ">
@@ -201,7 +201,7 @@ function showState(state) {
   padding: 0;
   cursor: pointer;
 ">
-  <img src="img/Tibet.png" style="width: 100%; display: block;">
+  <img src="img/map/Tibet.png" style="width: 100%; display: block;">
 </button>
 
 <button onclick="showState('guangxi')" style="
@@ -214,6 +214,6 @@ function showState(state) {
   padding: 0;
   cursor: pointer;
 ">
-  <img src="img/Guangxi.png" style="width: 100%; display: block;">
+  <img src="img/map/Guangxi.png" style="width: 100%; display: block;">
 </button>
 </div>
