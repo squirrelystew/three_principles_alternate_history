@@ -183,7 +183,15 @@ function showState(state) {
 }
 </script>
 
-<div <button onclick="showState('tibet')" style="
+<div id="china-map" style="
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background-image: url('img/map/tempchinamap.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+">
+  <button onclick="showState('tibet')" style="
   position: absolute;
   left: 15%;
   top: 40%;
